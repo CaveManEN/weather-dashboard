@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="/assets/style.css"> <!-- Add your CSS file here -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.6/dayjs.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Left Column for Cities -->
+        <div class="left-column">
+            <h2>Cities</h2>
+            <!-- Search Bar -->
+            <input type="text" id="city-input" placeholder="Enter city name">
+            <button id="save-city-button">Search</button>
+            <ul id="city-list">
+                <!-- City names will be dynamically added here -->
+            </ul>
+            <button id="reset-city-list-button">Reset City List</button>
+        </div>
+
+        <!-- Right Column for Weather Details -->
+        <div class="right-column">
+            <!-- City Name and Weather Details -->
+            <div class="city-weather-details">
+                <h2 id="selected-city-name">City Name</h2>
+                <div id="city-weather">
+                    <!-- Weather details will be dynamically added here -->
+                </div>
+            </div>
+
+            <!-- 5-Day Weather Dashboard -->
+            <div class="container">
+                <h2 class="forecast-header">5-Day Weather Forecast</h2>
+                <!-- Day 1 Forecast -->
+                <div class="forecast-day" id="forecast-day-1">
+                    <!-- Forecast data for day 1 will be dynamically added here -->
+                </div>
+                <!-- Day 2 Forecast -->
+                <div class="forecast-day" id="forecast-day-2">
+                    <!-- Forecast data for day 2 will be dynamically added here -->
+                </div>
+                <!-- Day 3 Forecast -->
+                <div class="forecast-day" id="forecast-day-3">
+                    <!-- Forecast data for day 3 will be dynamically added here -->
+                </div>
+                <!-- Day 4 Forecast -->
+                <div class="forecast-day" id="forecast-day-4">
+                    <!-- Forecast data for day 4 will be dynamically added here -->
+                </div>
+                <!-- Day 5 Forecast -->
+                <div class="forecast-day" id="forecast-day-5">
+                    <!-- Forecast data for day 5 will be dynamically added here -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/assets/script.js"></script> <!-- Add your JavaScript file here -->
+</body>
+
+
+
+
+</html>
