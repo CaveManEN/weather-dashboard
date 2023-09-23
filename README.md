@@ -1,8 +1,8 @@
-#Weather Dashboard
-##The Weather Dashboard is a web application that allows users to search for the weather forecast of cities and view a 5-day weather forecast. This README provides an overview of the project and its components.
+# Weather Dashboard
+## The Weather Dashboard is a web application that allows users to search for the weather forecast of cities and view a 5-day weather forecast. This README provides an overview of the project and its components.
 
-#Features
-##City Search: Users can enter the name of a city and click the "Search" button to retrieve the weather forecast for that city.
+# Features
+## City Search: Users can enter the name of a city and click the "Search" button to retrieve the weather forecast for that city.
 
 City List: The application maintains a list of cities that the user has searched for. This list is displayed on the left side of the interface.
 
@@ -10,8 +10,8 @@ Weather Details: When a city is selected from the list, the right side of the in
 
 5-Day Weather Forecast: Below the weather details, there is a section that displays a 5-day weather forecast. Each day's forecast is displayed in a separate container.
 
-#Project Structure
-##The project is structured as follows:
+# Project Structure
+## The project is structured as follows:
 
 HTML: The index.html file contains the structure of the web page, including the input field, buttons, and containers for displaying weather information.
 
