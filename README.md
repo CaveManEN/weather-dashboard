@@ -20,3 +20,9 @@ CSS: The style.css file contains the styles for the web page, including the layo
 JavaScript: The script.js file contains the JavaScript code that handles user interactions, makes API requests to retrieve weather data, and updates the interface with the retrieved data.
 
 Dependencies: The project uses the Day.js library for date and time manipulation. The library is included via a CDN link in the HTML file.
+
+# A screenshot of the application 
+<img width="1438" alt="Screenshot 2023-09-23 at 12 25 40 PM" src="https://github.com/CaveManEN/weather-dashboard/assets/139927655/ab380f19-d263-41e6-9ce3-5633b6727d5c">
+
+# A link to the application
+
